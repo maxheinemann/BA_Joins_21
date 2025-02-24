@@ -189,21 +189,17 @@ var i5;
 
 document.experiment_definition(
     {
-        experiment_name:'Max First  Case_1',
+        experiment_name:'Max Case_21',
         seed:'42',
-        introduction_pages:['Case_1' + '\n'+
-        'Thanks for participating in the experiment on case distinction in SQL.\n\n' +
-        'Running the experiment takes about 20 minutes.\n\n' +
-        'In the following, different case distinction variants in SQL will be shown to you. ' +
-        'The question for each statement is, what it returns. ' +
-        'For example, if you see the following statement\n\n' +
-        'Value: x=3'+
-        '  if (x<5) {\n' +
-        '    return x+1;\n' +
-        '  } else {\n' +
-        '    return x-1;\n' +
-        '  }\n\n' +
-        'the answer will be 4, i.e. you have to press the button [4].\n\n',
+        introduction_pages:['note: the experiment is not really polished. That means the navigation pages are not adjusted yet.\n' +
+        'You can navigate through the first pages with the right arrow and ENTER. ' +
+        'To escape the training session, press ESC.\n' +
+
+            'Goal of the experiment: \n' +
+        'You see just the joining condition of the two tables on right. ' +
+        'Your task is to identify whether the shown condition is correct or incorrect. \n' +
+        'Incorrect means that one attribute in the condition does not exist in the tables.\n' +
+        'Type in c for a correct condition, or i for an incorrect one and then ENTER to get to the next task..\n\n',
 
             'The experiment consists of a training phase an an experiment phase.\n\n' +
             'The training phase is only for you to get familiar with the ' +
