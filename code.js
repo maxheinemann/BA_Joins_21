@@ -211,7 +211,7 @@ document.experiment_definition(
             'Depending on your browser and your machine, this could be done by pressing [CTRL] + [+] ' +
             'or [CTRL] + [.].\n\n' +
             'Press [Return] to enter the training phase.'],
-        pre_run_instruction:'Please put your fingers on the number buttons.\n\nWhen you press [Enter] the first task will be shown.',
+        pre_run_instruction:'Please put your fingers on c and i.\n\nWhen you press [Enter] the first task will be shown.',
         finish_pages:['Thanks for participating. When you press [Enter], the experiments data will be downloaded.\n\n' +
         'If you want to contribute to research, you can send the downloaded file to maximilian.heinemann@stud.uni-due.de.'],
         layout:[
